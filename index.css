@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#1C1C1C;
+    color: #D5D4D8;
+}
+#color-nav{
+    background:#1F2937;
+}
+.pallete {
+    padding: 13em 0;
+}
+.pallete:nth-child(1){
+    background: red;
+}
+.pallete:nth-child(2){
+    background: bisque;
+}
+.pallete:nth-child(3){
+    background: #1F29d6;
+}
+.pallete:nth-child(4){
+    background: aquamarine;
+}
+.pallete:nth-child(5){
+    background: aqua;
+}
+#color-code {
+    background: #1F2937;
+}
+.hex p{
+    color:#D5D4D8;
+}
+.form-select{
+    width: 70%;
+    height: 2.7em; 
+    color: #D5D4D8; 
+    border: 1px solid #D5D4D8 !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e");
+    background-color: #1F2937;
+}
+.form-select:focus{
+    box-shadow: none !important;
+}
+
+@media (max-width: 556px){
+    button{
+        font-size: .6em !important;
+        padding-bottom: 4em !important;
+    }
+    .hex p{
+        font-size: .7em !important;
+    }
+}
+@media (max-width: 384px){
+    .hex p{
+        font-size: .4em !important;
+    }
+}
